@@ -1,0 +1,73 @@
+.title {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.title-list {
+  border-bottom: 1px solid #aaa;
+}
+
+.input-add {
+  padding: 3px;
+  margin-left: 30px;
+  height: 20px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn-add {
+  border: none;
+  cursor: pointer;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.input-add:hover,
+.btn-add:hover {
+  border: 1px solid #aaa;
+}
+
+.btn-save {
+  display: none;
+}
+
+ul,
+li {
+  display: block;
+  margin-left: 5px;
+  padding: 0;
+}
+
+li label {
+  display: inline-block;
+  width: 330px;
+  overflow: hidden;
+}
+.delete {
+  cursor: pointer;
+  vertical-align: -3px;
+}
+
+.input-deadLine {
+  /* float: right; */
+  /* width: 180px; */
+  /* color: #999; */
+}
+
+/* li {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: auto;
+  align-content: start;
+}
+.item {
+  flex: 0 0 right;
+} */
